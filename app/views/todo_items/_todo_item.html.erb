@@ -26,7 +26,7 @@
             <% end %>
         </div>
         <div class="todo_item">
-            <p><%= todo_item.content %></p>
+            <p style="font-weight: bold"><%= todo_item.content %></p>
         </div>
         <div class="trash">
             <%= link_to todo_list_todo_item_path(@todo_list, todo_item.id),
