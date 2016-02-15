@@ -29,7 +29,6 @@ Rails.application.configure do
   #config.assets.css_compressor = :sass
 
   config.assets.compile = false
-  config.assets.compress = false
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
